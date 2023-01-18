@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style:italic;
+}
+form{
+    width: fit-content;
+    margin: 200px auto;
+    text-align: right;
+    background: linear-gradient(to top,rgba(252, 243, 207,0.5),rgba(241, 148, 138,0.6));
+    animation: sample 5s ;
+}
+@keyframes sample{
+   from{background: linear-gradient(to top,rgba(232, 218, 239,0.5),rgba(174, 214, 241,0.5));} 
+   to{ background: linear-gradient(to top,rgba(252, 243, 207,0.5),rgba(241, 148, 138,0.6));}
+}
+table{
+    padding: 50px;
+}
+input{
+    margin: 5px 4px;
+}
+button{
+    margin: 10px 0;
+    padding: 5px 19px;
+    background-color: lightblue;
+    border: 2px solid lightblue;
+    cursor: pointer;
+}
